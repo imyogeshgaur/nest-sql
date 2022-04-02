@@ -1,0 +1,29 @@
+! For User
+    1) GET Routes
+    GET ROUTE : localhost:8000/api/users/
+    GET USER BY ID :  localhost:8000/api/users/:id
+    SEARCH USER BY ID :   localhost:8000/api/users/search/:id
+    2) POST Routes
+    POST USER :  localhost:8000/api/users/create
+
+RAW DATA FOR USER
+{
+    "id":1001,
+    "name":"Yogesh Gaur",
+    "email":"yogesgaur@gmail.com",
+    "address":{
+        "line1":"234 C",
+        "line 2" : "Street Wolf New York",
+        "zip":200021,
+        "city":"New York",
+        "state":"USA",
+    }
+}
+
+RAW DATA FOR CUSTOMER 
+
+{
+    "id":2001,
+    "name":"YOGESH GAUR",
+    "password":"abc@123",
+}
